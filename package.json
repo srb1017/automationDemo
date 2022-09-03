@@ -1,0 +1,22 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srb1017/automationDemo.git"
+  },
+  "author": "Sean Bajus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srb1017/automationDemo/issues"
+  },
+  "homepage": "https://github.com/srb1017/automationDemo#readme",
+  "devDependencies": {
+    "cypress": "^10.7.0"
+  }
+}
