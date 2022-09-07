@@ -5,10 +5,10 @@ Screencast -
 # Automation Details
 
 # Requirements:
-Command line tools installed
-Node installed
+1. Command line tools installed
+2. Node installed
 
-Steps:
+# Steps:
 1. git clone repo from https://github.com/srb1017/automationDemo
 2. From the same path run ./node_modules/.bin/cypress install
 3. npm run cy:open
