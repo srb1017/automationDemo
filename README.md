@@ -1,7 +1,7 @@
 # QA Engineer Interview Exercise
 
-Google Doc - https://docs.google.com/document/d/1KxWAZ9V_lgu1eijhNoUitkNsf-qYSUjfGf1hYZQ0kyY/edit?usp=sharing
-Screencast - 
+1. Google Doc - https://docs.google.com/document/d/1KxWAZ9V_lgu1eijhNoUitkNsf-qYSUjfGf1hYZQ0kyY/edit?usp=sharing
+2. Screencast - 
 # Automation Details
 
 # Requirements:
