@@ -1,10 +1,11 @@
 describe("Play the Tic Tac Toe Game", () => {
   it("User plays the Tic Tac Toe Game", () => {
-    cy.visit("https://jsfiddle.net/v143afmn/#")
+    cy.visit("https://jsfiddle.net/sbajus/be054c26/")
     let shouldStop = false
+    let gameSize = 3
     cy.frameLoaded()
-    cy.iframe().find('[id="number"]').should("exist").type(3)
-    cy.iframe().find('[id="start"]').should("exist").click()
+    cy.iframe().find('[id="number"]').should("be.visible").type(gameSize)
+    cy.iframe().find('[id="start"]').should("be.visible").click()
     cy.iframe().find('[id="table"]').should("be.visible")
     cy.iframe()
       .find("table td")
@@ -17,7 +18,7 @@ describe("Play the Tic Tac Toe Game", () => {
             if (shouldStop) {
               return
             }
-            const id = shuffledSquare.attr("id")
+            let id = shuffledSquare.attr("id")
             cy.iframe()
               .find('[id="table"]')
               .should("be.visible")
