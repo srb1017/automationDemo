@@ -8,6 +8,6 @@ describe("Initialize Tic Tac Toe Game", () => {
     cy.iframe().find('[id="table"]').should("be.visible")
     cy.iframe()
       .find("table td")
-      .should("have.lengthOf", gameSize*gameSize)
+      .should("have.lengthOf", gameSize * gameSize)
   })
 })
