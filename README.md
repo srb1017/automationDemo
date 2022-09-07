@@ -17,3 +17,6 @@
 6. Click Start E2E Testing in Chrome
 7. Select Specs on the left if not already selected
 8. Click the name of script that you want to run
+
+# Note:
+To succesfully run automation with Cypress I was unable to use the URL provided(https://codepen.io/CalendlyQA/full/KKPQLmV) as Codepen has introduced Captcha which blocks Cypress from performing automation against the site.  I copied the exact code used and hosted it on https://jsfiddle.net/sbajus/be054c26/ for the automated portion of the exercise.
