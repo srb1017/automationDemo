@@ -1,4 +1,4 @@
-describe("Test various characters in TicTacToeGame", () => {
+describe("Test various characters in Tic Tac Toe Game", () => {
   it("User visits Tic Tac Toe Game and tests various inputs of characters", () => {
     cy.visit("https://jsfiddle.net/sbajus/be054c26/")
     let gameSize = 3
